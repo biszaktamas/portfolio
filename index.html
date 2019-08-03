@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Biszak Tamás</title>
+		<link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+		<link rel="shortcut icon" type="image/x-icon" href="Contents/favicon.ico" />
+		<style>
+
+			html{
+				scroll-behavior: smooth;
+			}
+			.center {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.bg{
+				background-attachment: fixed;
+			}
+			.transparentbutton{
+				background-color: transparent;
+				border-color: white;
+				color: white;
+				transition: background-color 0.3s, border-color 0.3s;
+			}
+			.transparentbutton:hover{
+				color: white;
+				background-color: hsl(217, 71%, 53%);
+				border-color: hsl(217, 71%, 53%);
+			}
+			#top{
+				background-image: url('Contents/herobgb.jpg');
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+	</style>
+	</head>
+	<body>
+
+		<!-- .hero -->
+		<section class="hero is-fullheight is-dark" id="top">
+		  <div class="hero-body">
+			<div class="container has-text-centered is-large "style="background-color: rgba(54,54,64,0.7); border-radius: 25px; padding: 30px;">
+			  <p class="title is-size-1">
+				Hi, I'm Biszak Tamás
+			  </p>
+			  <p class="subtitle">
+				This is my portfolio
+			  </p>
+				<div class="columns is-centered">
+					<div class="column is-narrow">
+						<a class="button is-rounded is-medium transparentbutton" href="#top">Home</a>
+					</div>
+					<div class="column is-narrow">
+						<a class="button is-rounded is-medium transparentbutton" href="#projects">Projects</a>
+					</div>
+					<div class="column is-narrow">
+						<a class="button is-rounded is-medium transparentbutton" href="#about">About</a>
+					</div>
+					<div class="column is-narrow">
+						<a class="button is-rounded is-medium transparentbutton" href="#contacts">Contacts</a>
+					</div>
+				</div>
+			</div>
+		  </div>
+		</section>
+		<!-- /.hero -->
+
+		<!-- Projects section -->
+		<section class="section" id="projects">
+			<div class="container">
+				<div class="content has-text-centered is-large">
+					<h1>My projects</h1>
+				</div>
+				<div class="columns">
+					<div class="column">
+						<div class="card" style="padding: 10px; border-radius: 20px;">
+							<div class="card-image">
+								<figure class="image is-4by3">
+									<img src="Contents/fridge.jpg" style="border-radius: 20px;">
+								</figure>
+
+							</div>
+							<div class="content has-text-centered">
+								<p class="title">Fridge application</p>
+								<p class="subtitle">With this app, you can store information about your food in the fridge, and add recipes.
+																		  the app will display those recipes according to the available ingredients in your fridge</p>
+								
+								<a class="button is-medium is-rounded" href="https://github.com/biszaktamas/fridgeapp">Source code</a>
+							</div>
+
+						</div>
+					</div>
+					<div class="column">
+						<div class="card" style="padding: 10px; border-radius: 20px;">
+							<div class="card-image">
+								<figure class="image is-4by3">
+									<img src="Contents/sitebybulma.jpg" style="border-radius: 20px;">
+								</figure>
+							</div>
+							<div class="content has-text-centered">
+								<p class="title">My website made with bulma</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+
+
+		</section>
+		<!-- /projects section -->
+
+		<!-- about section -->
+		<section class="section" id="about">
+			<div class="container" style="background-color: hsl(0, 0%, 96%); padding: 5px; border-radius: 20px;">
+				<div class="content has-text-centered is-large">
+					<h1 style="margin-top: 10px;">About me</h1>
+				</div>
+					<div class="column">
+						<div class="content is-medium">
+							<ul>
+								<li><h5>Personal information</h5></li>
+								<ul>
+									<li><p><i class="fas fa-map-marker-alt"></i> 7696 Hidas (Hungary)</p></li>
+									<li><p><i class="fas fa-mobile-alt"></i> 06 20 2274993</p> </li>
+									<li><p><i class="fas fa-envelope"></i> biszaktamas@gmail.com</p></li>
+								</ul>
+								<li><h5>Studies</h5></li>
+								<ul>
+									<li><p><strong>2018 - present:</strong> Computer science engineer<br><sub>PTE Műszaki és Informatikai Kar, Pécs (Hungary)</sub></p></li>
+									<li><p><strong>2017 - 2018:</strong> System administrator<br><sub>Pécsi Szakképzési Centrum Zipernowsky Károly Szakgimnáziuma, Pécs (Hungary)</sub></p></li>
+									<li><p><strong>2013 - 2017:</strong> High school graduation<br><sub>Pécsi Szakképzési Centrum Zipernowsky Károly Szakgimnáziuma, Pécs (Hungary)</sub></p></li>
+								</ul>
+								<li><h5>Skills</h5></li>
+								<ul>
+									<li>Languages</li>
+									<ul>
+										<li><p><strong>Native language:</strong> Hungarian</p></li>
+										<li><p><strong>English level:</strong> Intermediate (B2)</p></li>
+									</ul>
+									<li>IT Skills</li>
+									<ul>
+										<li><p><strong>languages I know:</strong> Java, Javascript, HTML, CSS, SQL</p></li>
+										<li><p>I can configure LAMP servers on Linux distributions</p></li>
+										<li><p>I can build computer networks, configure routers</p></li>
+										<li><p>I can disassemble / assemble a PC</p></li>
+										<li><p>Wordpress</p></li>
+										<li><p>Microsoft Office programs</p></li>
+										<li><p>Adobe Photoshop</p></li>
+									</ul>
+									<li>Other</li>
+									<ul>
+										<li><p>Driver's license (B category)</p></li>
+									</ul>
+								</ul>
+							</ul>
+						</div>
+					</div>
+
+			</div>
+		</section>
+		<!-- /about section -->
+
+		<!-- contancts section -->
+		<section class="hero is-dark" id="contacts">
+			<div class="container">
+				<div class="columns">
+					<div class="column has-text-centered">
+						<h1 style="padding-top: 16px; font-size: 3em;">Contacts</h1>
+					</div>
+
+				</div>
+				<div class="columns has-text-centered is-centered">
+					<div class="column is-narrow">
+						<a class="button is-medium is-rounded transparentbutton" href="mailto: biszaktamas@gmail.com"><span class="icon"><i class="fas fa-envelope"></i> </span></a>
+					</div>
+					<div class="column is-narrow">
+						<a class="button is-medium is-rounded transparentbutton" href="https://github.com/biszaktamas" target="_blank"><span class="icon"><i class="fab fa-github"></i> </span></a>
+					</div>
+					<div class="column is-narrow">
+						<a class="button is-medium is-rounded transparentbutton" href="https://www.linkedin.com/in/tam%C3%A1s-biszak-67b239190/" target="_blank"><span class="icon"><i class="fab fa-linkedin"></i> </span></a>
+					</div>
+				</div>
+
+
+
+
+
+
+			</div>
+		</section>
+		<!-- /contacts section -->
+
+		<!-- footer -->
+		<footer class="section hero is-dark">
+			<div class="container">
+				<div class="columns has-text-centered">
+					<div class="column">
+						<a href="https://bulma.io">
+							<img src="https://bulma.io/images/made-with-bulma--white.png" alt="Made with Bulma" width="163" height="31">
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- /footer -->
+
+	</body>
+</html>
